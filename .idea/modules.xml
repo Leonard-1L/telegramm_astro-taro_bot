@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BotForMama.iml" filepath="$PROJECT_DIR$/.idea/BotForMama.iml" />
+      <module fileurl="file://$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Final_course_project/.idea/Final_course_project.iml" filepath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Final_course_project/.idea/Final_course_project.iml" />
+      <module fileurl="file://$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/TG_bot_voice_to_text/.idea/TG_bot_voice_to_text.iml" filepath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/TG_bot_voice_to_text/.idea/TG_bot_voice_to_text.iml" />
+      <module fileurl="file://$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/tg_voise.iml" filepath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/tg_voise.iml" />
     </modules>
   </component>
 </project>

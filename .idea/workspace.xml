@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ff761a-626f-475f-a0e6-4a39ce14fdcc" name="Changes" comment="first commit)">
+    <list default="true" id="05ff761a-626f-475f-a0e6-4a39ce14fdcc" name="Changes" comment="many cod">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/BotForMama.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BotForMama.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -13,7 +14,12 @@
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secrets/BOT TOKEN" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sql_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/units.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/misc.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/tg_voise.iml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/tg_voise.iml" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/workspace.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/bot.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/bot.py" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/config.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/config.py" afterDir="false" />
+      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/gpt.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/gpt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +55,9 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/My_programms/JetBrains/PyCharm Community Edition 2023.3.2/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts"
+    "last_opened_file_path": "C:/My_programms/JetBrains/PyCharm Community Edition 2023.3.2/Тарочкин Леонид/Proekts/Fourth_module/Final_course_project"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -119,11 +126,20 @@
       <option name="project" value="LOCAL" />
       <updated>1721244519141</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="many cod">
+      <option name="closed" value="true" />
+      <created>1721333611618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721333611618</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit)" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit)" />
+    <MESSAGE value="many cod" />
+    <option name="LAST_COMMIT_MESSAGE" value="many cod" />
   </component>
 </project>

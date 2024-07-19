@@ -17,8 +17,8 @@ bot = telebot.TeleBot(get_bot_token())
 @bot.message_handler(commands=['start'])
 def start_bot(message: Message):
     bot.send_message(message.from_user.id,
-                     f"Напиши приветсвие для бота, его краткое описание. В общем то, что хочешь видеть когда твой бот отвечает после команды /start.")
-    add_message(message.from_user.id, ['message.from_user.username', None])
+                     f"Мам, напиши мне приветсвие для бота, его краткое описание. В общем то, что хочешь видеть когда твой бот отвечает после команды /start.")
+    add_user(message.from_user.id, [message.from_user.username, None])
 
 
 @bot.message_handler(commands=['help'])
@@ -29,15 +29,17 @@ def send_help(message: Message):
     bot.register_next_step_handler(message, help_user)
 
 
-def help _user(message: Message):
+def help_user(message: Message):
+    add_question(message.from_user.id, [message.text, None])
     for admin in admins_id:
-        bot.send_message(admin, f"{message.from_user.username} попросил помощь: '{message.text}'",
-                         reply_markup=create_keyboard(['Я отвечу', "Не смогу ответить"]))
+        bot.send_message(admin,
+                         f"{message.from_user.username} попросил помощь: '{message.text}'\n Используй команду /admin_help_user чтобы помочь.")
+        bot.reply_to(message, 'Помощник в пути!')
 
 
-
-@bot.message_handler(commands=['ADMINS_send_help'])
-def send_admins_help(message: Message):
+@bot.message_handler(commands=['admin_help_user'])
+def send_admin_help(message: Message):
+    ...
 
 
 def create_keyboard(buttons_list: list) -> ReplyKeyboardMarkup:
@@ -47,7 +49,7 @@ def create_keyboard(buttons_list: list) -> ReplyKeyboardMarkup:
 
 
 if __name__ == '__main__':
-    create_database()
-    logging.info("База данных успешно создана")
+    create_databases()
+    logging.info("Базы данных успешно созданы")
     bot.polling()
     logging.info('Бот запущен успешно')

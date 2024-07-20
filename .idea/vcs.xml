@@ -2,8 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Final_course_project" vcs="Git" />
-    <mapping directory="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts" vcs="Git" />
-    <mapping directory="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/TG_bot_voice_to_text" vcs="Git" />
   </component>
 </project>

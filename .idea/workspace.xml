@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ff761a-626f-475f-a0e6-4a39ce14fdcc" name="Changes" comment="many cod">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="05ff761a-626f-475f-a0e6-4a39ce14fdcc" name="Changes" comment="продолжил дописывать фичу для обратной помощи пользователям.">
       <change beforePath="$PROJECT_DIR$/.idea/BotForMama.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BotForMama.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secrets/BOT TOKEN" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sql_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_database.py" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/misc.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/tg_voise.iml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/tg_voise.iml" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/workspace.xml" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/bot.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/bot.py" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/config.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/config.py" afterDir="false" />
-      <change beforePath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/gpt.py" beforeDir="false" afterPath="$APPLICATION_HOME_DIR$/Тарочкин Леонид/Proekts/Fourth_module/Leo_16g_tts/gpt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +47,8 @@
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.main.executor": "Run",
+    "Python.sql_database.executor": "Run",
+    "Python.utils.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -65,7 +61,7 @@
       <recent name="C:\My_programms\JetBrains\PyCharm Community Edition 2023.3.2\My_programms\BotForMama\secrets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.sql_database">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BotForMama" />
       <option name="ENV_FILES" value="" />
@@ -88,9 +84,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sql_database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BotForMama" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sql_database.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BotForMama" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sql_database" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.utils" />
       </list>
     </recent_temporary>
   </component>
@@ -134,12 +176,32 @@
       <option name="project" value="LOCAL" />
       <updated>1721333611618</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="продолжил дописывать фичу для обратной помощи пользователям.">
+      <option name="closed" value="true" />
+      <created>1721426272549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721426272549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit)" />
     <MESSAGE value="many cod" />
-    <option name="LAST_COMMIT_MESSAGE" value="many cod" />
+    <MESSAGE value="продолжил дописывать фичу для обратной помощи пользователям." />
+    <option name="LAST_COMMIT_MESSAGE" value="продолжил дописывать фичу для обратной помощи пользователям." />
   </component>
 </project>

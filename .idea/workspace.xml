@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ff761a-626f-475f-a0e6-4a39ce14fdcc" name="Changes" comment="Доделывал фичу обратно связи, осталось решить отправку ответа от админа обратно полбзователю через БД">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="05ff761a-626f-475f-a0e6-4a39ce14fdcc" name="Changes" comment="Нахер всё и вся, удаляю это дерьмо.">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secrets/BOT TOKEN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721509707271</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Нахер всё и вся, удаляю это дерьмо.">
+      <option name="closed" value="true" />
+      <created>1721593018641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721593018641</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +212,7 @@
     <MESSAGE value="many cod" />
     <MESSAGE value="продолжил дописывать фичу для обратной помощи пользователям." />
     <MESSAGE value="Доделывал фичу обратно связи, осталось решить отправку ответа от админа обратно полбзователю через БД" />
-    <option name="LAST_COMMIT_MESSAGE" value="Доделывал фичу обратно связи, осталось решить отправку ответа от админа обратно полбзователю через БД" />
+    <MESSAGE value="Нахер всё и вся, удаляю это дерьмо." />
+    <option name="LAST_COMMIT_MESSAGE" value="Нахер всё и вся, удаляю это дерьмо." />
   </component>
 </project>

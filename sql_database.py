@@ -30,7 +30,8 @@ def create_databases():
                 user_id INTEGER,
                 user_question TEXT,
                 status TEXT,
-                responding_admin TEXT)
+                responding_admin TEXT,
+                admin_answer TEXT)
             ''')
             conn.commit()
     except Exception as e:
@@ -68,14 +69,15 @@ def add_question(user_id, full_message: list):
     try:
         with sqlite3.connect(path_to_db) as conn:
             cursor = conn.cursor()
-            user_question, status, responding_admin = full_message
+            user_question, status, responding_admin, admin_answer = full_message
             cursor.execute(f'''
-                    INSERT INTO questions (user_id, user_question, status, responding_admin)
-                    VALUES (?, ?, ?, ?)''',
-                           (user_id, user_question, status, responding_admin)
+                    INSERT INTO questions (user_id, user_question, status, responding_admin, admin_answer)
+                    VALUES (?, ?, ?, ?, ?)''',
+                           (user_id, user_question, status, responding_admin, admin_answer)
                            )
             conn.commit()
-            logging.info(f"DATABASE: Добавлены значения {user_id}, {user_question}, {status}, {responding_admin}")
+            logging.info(
+                f"DATABASE: Добавлены значения {user_id}, {user_question}, {status}, {responding_admin}, {admin_answer}")
     except Exception as e:
         logging.error(f'add_question: {e}')
 
@@ -92,7 +94,7 @@ def update_value(table, column_name, individual_column, user_id, individual_valu
             cursor.execute(query, (new_column_value, individual_value, user_id))
             conn.commit()
         logging.info(
-            f"DATABASE:{user_id} изменил в {column_name} старое значение '{individual_value}' на новое '{new_column_value}'")
+            f"DATABASE: У {user_id} изменилось в {column_name} старое значение '{individual_value}' на новое '{new_column_value}'")
     except Exception as e:
         logging.error(f'update_value: {e}')
         return None
@@ -117,11 +119,12 @@ def return_all_questions() -> list:
         messages = []
         with sqlite3.connect(path_to_db) as conn:
             cursor = conn.cursor()
-            cursor.execute("SELECT question_id, user_id, user_question, status, responding_admin FROM questions")
+            cursor.execute(
+                "SELECT question_id, user_id, user_question, status, responding_admin, admin_answer FROM questions")
             rows = cursor.fetchall()
             for row in rows:
-                question_id, user_id, user_question, status, responding_admin = row
-                message = [question_id, user_id, user_question, status, responding_admin]
+                question_id, user_id, user_question, status, responding_admin, admin_answer = row
+                message = [question_id, user_id, user_question, status, responding_admin, admin_answer]
                 messages.append(message)
             return messages
     except Exception as e:
@@ -133,7 +136,7 @@ def return_question_by_id(question_id) -> list:
         with sqlite3.connect(path_to_db) as conn:
             cursor = conn.cursor()
             cursor.execute(
-                "SELECT question_id, user_id, user_question, status, responding_admin FROM questions WHERE question_id = ?",
+                "SELECT question_id, user_id, user_question, status, responding_admin, admin_answer FROM questions WHERE question_id = ?",
                 (question_id,))
             row = cursor.fetchone()
             return row

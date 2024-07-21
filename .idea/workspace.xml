@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05ff761a-626f-475f-a0e6-4a39ce14fdcc" name="Changes" comment="продолжил дописывать фичу для обратной помощи пользователям.">
-      <change beforePath="$PROJECT_DIR$/.idea/BotForMama.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BotForMama.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="05ff761a-626f-475f-a0e6-4a39ce14fdcc" name="Changes" comment="Доделывал фичу обратно связи, осталось решить отправку ответа от админа обратно полбзователю через БД">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secrets/BOT TOKEN" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sql_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/sql_database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,25 +38,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "Python.main.executor": "Run",
-    "Python.sql_database.executor": "Run",
-    "Python.utils.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/My_programms/JetBrains/PyCharm Community Edition 2023.3.2/Тарочкин Леонид/Proekts/Fourth_module/Final_course_project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sql_database.executor&quot;: &quot;Run&quot;,
+    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/My_programms/JetBrains/PyCharm Community Edition 2023.3.2/Тарочкин Леонид/Proekts/Fourth_module/Final_course_project&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\My_programms\JetBrains\PyCharm Community Edition 2023.3.2\My_programms\BotForMama\secrets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sql_database">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="BotForMama" />
       <option name="ENV_FILES" value="" />
@@ -130,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sql_database" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.sql_database" />
         <item itemvalue="Python.utils" />
       </list>
     </recent_temporary>
@@ -184,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721426272549</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Доделывал фичу обратно связи, осталось решить отправку ответа от админа обратно полбзователю через БД">
+      <option name="closed" value="true" />
+      <created>1721509707271</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721509707271</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +205,7 @@
     <MESSAGE value="first commit)" />
     <MESSAGE value="many cod" />
     <MESSAGE value="продолжил дописывать фичу для обратной помощи пользователям." />
-    <option name="LAST_COMMIT_MESSAGE" value="продолжил дописывать фичу для обратной помощи пользователям." />
+    <MESSAGE value="Доделывал фичу обратно связи, осталось решить отправку ответа от админа обратно полбзователю через БД" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доделывал фичу обратно связи, осталось решить отправку ответа от админа обратно полбзователю через БД" />
   </component>
 </project>
